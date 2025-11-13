@@ -136,7 +136,7 @@ var runService = function () {
           }
         }
 
-        if (!stopping) {
+Control + Shift + m        if (!stopping) {
           setTimeout(runService, 5000);
         }
       });
